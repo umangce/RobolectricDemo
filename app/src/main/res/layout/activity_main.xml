@@ -14,11 +14,13 @@
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello Robolectric!" />
 
     <Button
         android:id="@+id/button_simple"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_below="@id/text_view"
+        android:layout_marginTop="10dp"
+        android:text="Start" />
 </RelativeLayout>

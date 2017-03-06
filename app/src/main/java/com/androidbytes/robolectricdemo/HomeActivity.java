@@ -3,7 +3,7 @@ package com.androidbytes.robolectricdemo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-public class SampleActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
